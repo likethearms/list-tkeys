@@ -11,11 +11,8 @@
         "GitHub.copilot",
         "GitHub.copilot-chat",
         "VisualStudioExptTeam.vscodeintellicode",
-        "bradlc.vscode-tailwindcss",
         "redhat.vscode-yaml",
         "ms-azuretools.vscode-docker",
-        "Prisma.prisma",
-        "GrapeCity.gc-excelviewer",
         "yoavbls.pretty-ts-errors",
         "oderwat.indent-rainbow"
       ],
@@ -44,33 +41,8 @@
         "[json]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
-        "[typescriptreact]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
         "editor.formatOnSave": true,
-        "[typescript]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
-        "workbench.iconTheme": "file-icons",
-        "extensions.ignoreRecommendations": false,
-        "[dockerfile]": {
-          "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-        },
-        "css.lint.unknownAtRules": "ignore",
-        "editor.inlineSuggest.enabled": true,
-        "files.associations": {
-          "*.ts": "typescript",
-          ".env.testing": "properties"
-        },
-        "[python]": {
-          "editor.formatOnType": true
-        },
-        "search.exclude": {
-          "**/node_modules": true,
-          "**/bower_components": true,
-          "**/*.code-search": true,
-          "admin": true
-        }
+        "editor.inlineSuggest.enabled": true
       }
     }
   }
