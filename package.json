@@ -1,0 +1,12 @@
+{
+  "name": "list-tkeys",
+  "version": "0.1.0",
+  "description": "My package description",
+  "main": "index.js",
+  "scripts": {
+    "list-tkeys": "node index.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT"
+}
