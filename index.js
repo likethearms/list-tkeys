@@ -17,6 +17,8 @@ function findTranslationKeys(dir) {
       stat.isFile() &&
       /\.(js|jsx|ts|tsx)$/.test(filePath) &&
       !/node_modules/.test(filePath) &&
+      !/.next/.test(filePath) &&
+      !/.git/.test(filePath) &&
       !/\.json$/.test(filePath)
     ) {
       const content = fs.readFileSync(filePath, "utf8");

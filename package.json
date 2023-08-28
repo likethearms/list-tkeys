@@ -1,6 +1,6 @@
 {
   "name": "list-tkeys",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My package description",
   "main": "index.js",
   "scripts": {
